@@ -41,7 +41,7 @@
 - На проверку направить скриншот с командой и результатом ее выполнения
 
 ### Решение 
-![Alt text](https://github.com/Rinat43/rsync/blob/main/rsync.png)
+![Скриншот](https://github.com/valdemar-2502/Backup-Homework/blob/main/task_1_rsync_backup.png)
 
 
 ### Задание 2
@@ -52,17 +52,13 @@
 - На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
 ### Решение 
-- Скрипт резервного копирования
+Скрипт резервного копирования
+[backup_home.sh](https://github.com/valdemar-2502/Backup-Homework/blob/main/backup_home.sh)
 
-```
+Скрин crontab
+![Скриншот](https://github.com/valdemar-2502/Backup-Homework/blob/main/task_2_rsync_backup_cron.png)
 
-#!/bin/sh
-rsync -av --delete /home/rinat/ /tmp/backup >> /var/log/cron.log
-```
-- Скрин crontab
+Файл crontab
   
-![Alt text](https://github.com/Rinat43/rsync/blob/main/crontab.png)
-- Скрин логов
-  
-![Alt text](https://github.com/Rinat43/rsync/blob/main/3.png)
+[Crontab](https://github.com/valdemar-2502/Backup-Homework/blob/main/crontab)
 
